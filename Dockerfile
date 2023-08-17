@@ -10,4 +10,4 @@ RUN apt update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT [ "mega-cmd" ]
+CMD [ "mega-cmd" ]
